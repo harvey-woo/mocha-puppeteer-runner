@@ -1,0 +1,36 @@
+{
+  "name": "@cat5th/mocha-puppeteer-runner",
+  "version": "0.1.0",
+  "description": "A mocha browser runner that wrap by puppeteer",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harvey-woo/mocha-puppeteer-runner.git"
+  },
+  "keywords": [
+    "mocha",
+    "puppeteer"
+  ],
+  "author": "Harvey.Woo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harvey-woo/mocha-puppeteer-runner/issues"
+  },
+  "homepage": "https://github.com/harvey-woo/mocha-puppeteer-runner#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "koa": "^2.6.1",
+    "koa-router": "^7.4.0",
+    "koa-webpack": "^5.1.1",
+    "puppeteer": "^1.10.0",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1",
+    "webpack-watched-glob-entries-plugin": "^2.1.4"
+  },
+  "optionalDependencies": {
+    "webpack": "^4.25.1"
+  }
+}
